@@ -821,6 +821,7 @@ public class KeycloakDevServicesProcessor {
 
         user.setUsername(username);
         user.setEnabled(true);
+        user.setEmail(username + "@example.quarkus");
         user.setCredentials(new ArrayList<>());
         user.setRealmRoles(realmRoles);
 
